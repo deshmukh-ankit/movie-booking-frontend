@@ -29,8 +29,8 @@ function App() {
     {
       dispatch(adminActions.login());
     }
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  },[])
+  
+  },[dispatch])
   return (
     <div>
     {/* Header */}
